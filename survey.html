@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="./survey.css">
+
+    <!-- Local Scripts -->
+    <script src="./survey.js"></script>
+
+    <!-- external CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- external Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <title>Kinobody Survey</title>
+  </head>
+  <body>
+
+    <!--<<<<<<<<<<<<<<<<<<<<<<<<  NAV BAR  >>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+
+    <div class="nav-background">
+      <ul class="nav-bar">
+        <li id="gender-tab" class="nav-item active" onClick="genderNavBarClick()">
+          <i class="fa fa-venus-mars fa-5x" aria-hidden="true"></i>
+          <p>GENDER</p>
+        </li>
+        <li id="age-tab" class="nav-item off-color">
+          <i class="fa fa-calendar-alt fa-5x" aria-hidden="true"></i>
+          <p>AGE</p>
+        </li>
+        <li class="nav-item">
+          <i class="fa fa-heartbeat fa-5x" aria-hidden="true"></i>
+          <p>CONDITION</p>
+        </li>
+        <li class="nav-item off-color">
+          <i class="fa fa-flag-checkered fa-5x" aria-hidden="true"></i>
+          <p>GOAL</p>
+        </li>
+        <li class="nav-item">
+          <i class="fas fa-clipboard-check fa-5x" aria-hidden="true"></i>
+          <p>RESULTS</p>
+        </li>
+      </ul>
+    </div>
+
+    <!--<<<<<<<<<<<<<<<<<<<<<<<<  GENDER SELECTION  >>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+
+    <div id="gender-page">
+      <center>
+        <p style="margin-top: 50px; font-size: 30px; width: 60%">
+        TO START, PLEASE SELECT IF YOU'RE A <b>MAN</b> OR A <b>WOMAN</b>:
+        </p>
+
+        <ul class="gender-form">
+          <li class="gender-buttons male-color" onClick="maleClick()"><p>I'M A MAN<i class="fas fa-angle-right fa-1x" style="padding-left: 10px"></i></p></li>
+          <li class="gender-buttons female-color" onClick="maleClick()"><p>I'M A WOMAN<i class="fas fa-angle-right fa-1x" style="padding-left: 10px"></i></p></li>
+        </ul>
+      </center>
+    </div>
+
+    <!--<<<<<<<<<<<<<<<<<<<<<<<<  AGE SELECTION  >>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+
+    <div id="age-page" style="display: none">
+      <center>
+        <p style="margin-top: 50px; font-size: 36px;">
+        PLEASE SELECT YOUR AGE RANGE:
+        </p>
+        <ul class="age-form">
+          <li class="age-buttons"><p><b>TEENS</b></p></li>
+          <li class="age-buttons"><p><b>20's</b></p></li>
+          <li class="age-buttons"><p><b>30's</b></p></li>
+          <li class="age-buttons"><p><b>40's</b></p></li>
+          <li class="age-buttons"><p><b>50's</b></p></li>
+          <li class="age-buttons"><p><b>60+</b></p></li>
+        </ul>
+      </center>
+    </div>
+  </body>
+</html>

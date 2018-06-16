@@ -1,0 +1,111 @@
+/*------------------GENERAL STYLE RULES-----------------*/
+
+body {
+  margin: 0;
+  font-family: 'Lato';
+}
+
+/*------------------NAV BAR STYLING-----------------*/
+.nav-background {
+  background-color: #313539;
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: auto;
+  width: 610px;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.nav-item {
+  width: 90px;
+  float: left;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  padding: 14px 16px 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #ff7600;
+  color: #313539;
+}
+
+.off-color {
+  background-color: rgb(27, 31, 35);
+}
+
+.nav-item p {
+  margin: 0px;
+  padding-top: 5px;
+}
+
+/*------------------GENDER PAGE STYLING-----------------*/
+
+.gender-form {
+  list-style-type: none;
+  width: 568px;
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.gender-buttons {
+  width: 240px;
+  float: left;
+  text-align: center;
+  font-size: 26px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  color: #ffffff;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.male-color {
+  background-color: #ff7600;
+}
+
+.male-color:hover {
+  background-color: #ffad66;
+}
+
+.female-color {
+  background-color: #8e2ee8;
+}
+
+.female-color:hover {
+  background-color: #bc93e2;
+}
+
+/*------------------AGE PAGE STYLING-----------------*/
+
+.age-form {
+  list-style-type: none;
+  width: 570px;
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+.age-buttons {
+  width: 240px;
+  float: left;
+  text-align: center;
+  font-size: 26px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #ff7600;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.age-buttons:hover {
+  background-color: #ffad66;
+}
