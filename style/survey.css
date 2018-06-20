@@ -44,11 +44,16 @@ body {
   padding-top: 5px;
 }
 
+/*.fa.fa-venus-mars.fa-5x {
+  font-size: 10px;
+}*/
 /*------------------GENDER PAGE STYLING-----------------*/
 
 .gender-form {
+  display: table;
   list-style-type: none;
-  width: 568px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px 10px 10px 10px;
   overflow: hidden;
   background-color: transparent;
@@ -56,7 +61,8 @@ body {
 
 .gender-buttons {
   width: 240px;
-  float: left;
+  float: none;
+  display: inline-block;
   text-align: center;
   font-size: 26px;
   border: 2px solid transparent;
