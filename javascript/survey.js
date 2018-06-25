@@ -41,15 +41,15 @@ function femaleClick() {
   pageState.gender = FEMALE;
 
   let condition1 = document.getElementById('condition-1');
-  condition1.setAttribute('onclick', 'some_function');
+  condition1.setAttribute('onclick', 'femaleConditionClick()');
   condition1.innerHTML = '<p>I have a <b>slim body type<b> and want to gain lean muscle in the right areas to look my best.</p>';
 
   let condition2 = document.getElementById('condition-2');
-  condition2.setAttribute('onclick', 'some_function');
+  condition2.setAttribute('onclick', 'femaleConditionClick()');
   condition2.innerHTML = "<p>I have <b>stubborn body fat</b></p><p>I want to slim down and increase my muscle tone.</p>";
 
   let condition3 = document.getElementById('condition-3');
-  condition3.setAttribute('onclick', 'some_function');
+  condition3.setAttribute('onclick', 'femaleConditionClick()');
   condition3.innerHTML = "<p>I have <b>20 or more pounds of fat</b> to lose - I want to drop all this fat and look my best.</p>";
 
   document.getElementById('condition-4').style.display = 'none';
@@ -59,11 +59,11 @@ function femaleClick() {
 
 function maleCondition1Click() {
   let goal1 = document.getElementById('goal-1');
-  goal1.setAttribute('onClick', 'some_function');
+  goal1.setAttribute('onClick', 'maleResult4AA()');
   goal1.innerHTML = "<p>Do you want to focus on developing dense muscle size and lots of strength for the <b>GREEK GOD</b> Physique?</p><p>Think: hard, compact muscles with a good level of size & balanced proportions like Brad Pitt in Troy or Stephen Amell in Arrow.</p>"
 
   let goal2 = document.getElementById('goal-2');
-  goal2.setAttribute('onClick', 'some_function');
+  goal2.setAttribute('onClick', 'maleResult4AB()');
   goal2.innerHTML = "<p>Do you want to focus on maximizing lean muscle growth for the <b>SUPERHERO PHYSIQUE</b>?</p><p>Think: big, full, well-developed muscles with great proportions like Henry Cavil in Superman or Chris Hemsworth in Thor.</p>"
 
   openGoalPage();
@@ -71,32 +71,78 @@ function maleCondition1Click() {
 
 function maleCondition2Click() {
   let goal1 = document.getElementById('goal-1');
-  goal1.setAttribute('onClick', 'some_function');
+  goal1.setAttribute('onClick', 'maleResult4BA()');
   goal1.innerHTML = "<p>My main goal is <b>DEFINITION</b>.</p><p>I want to focus mainly on fat loss to reveal great definition while I slowly build dense muscle size.</p>"
 
   let goal2 = document.getElementById('goal-2');
-  goal2.setAttribute('onClick', 'some_function');
+  goal2.setAttribute('onClick', 'maleResult4BB()');
   goal2.innerHTML = "<p>My main goal is <b>MUSCLE GROWTH</b>.</p><p>I want to build muscle size while slowly dropping the fat covering my abs.</p>"
 
   openGoalPage();
 }
 
-function maleConditions3and4Click() {
+function maleConditions3Click() {
   let goal1 = document.getElementById('goal-1');
-  goal1.setAttribute('onClick', 'some_function');
+  goal1.setAttribute('onClick', 'maleResult4CA()');
   goal1.innerHTML = "<p>My main goal is to <b>DROP FAT</b> slowly.</p><p>About 1 pound per week while focusing on increasing muscle density and strength for a chiseled physique.</p>"
 
   let goal2 = document.getElementById('goal-2');
-  goal2.setAttribute('onClick', 'some_function');
+  goal2.setAttribute('onClick', 'maleResult4CB()');
   goal2.innerHTML = "<p>My main goal is to do an <b>AGGRESSIVE CUT</b> and lose fat faster.</p><p>I'm not worried about getting more strength and size. I just want to get lean fast.</p>"
 
   openGoalPage();
 }
-/*
-*
-*/
+
+unction maleConditions4Click() {
+  let goal1 = document.getElementById('goal-1');
+  goal1.setAttribute('onClick', 'maleResult4DA()');
+  goal1.innerHTML = "<p>My main goal is to <b>DROP FAT</b> slowly.</p><p>About 1 pound per week while focusing on increasing muscle density and strength for a chiseled physique.</p>"
+
+  let goal2 = document.getElementById('goal-2');
+  goal2.setAttribute('onClick', 'maleResult4DB()');
+  goal2.innerHTML = "<p>My main goal is to do an <b>AGGRESSIVE CUT</b> and lose fat faster.</p><p>I'm not worried about getting more strength and size. I just want to get lean fast.</p>"
+
+  openGoalPage();
+}
+
 function ageButtonClick() {
   openConditionPage();
+}
+
+function femaleConditionClick() {
+  window.location = 'https://pages.kinobody.com/survey/female/situation/diagnosis-a/women-result-4aa/';
+}
+
+function maleResult4AA() {
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4aa/';
+}
+
+function maleResult4AB() {
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4ab/';
+}
+
+function maleResult4BA() {
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4ba/';
+}
+
+function maleResult4BB() {
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4bb/';
+}
+
+function maleResult4CA() {
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4ca/';
+}
+
+function maleResult4CB() {
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4cb/';
+}
+
+function maleResult4DA() {
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4da/';
+}
+
+function maleResult4DB() {
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4db/';
 }
 
 function genderizeButtons() {
