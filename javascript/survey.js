@@ -266,7 +266,7 @@ var activateNavTab = function(navBarTab) {
   }
 
   navBarTab.classList.add('active');
-  navBArTab.style.cursor = 'pointer';
+  navBarTab.style.cursor = 'pointer';
 }
 
 /*
