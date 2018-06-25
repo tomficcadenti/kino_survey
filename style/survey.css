@@ -74,6 +74,10 @@ body {
     font-size: 30px;
   }
 
+  .fas.fa-clipboard-check.fa-5x {
+    font-size: 30px;
+  }
+
   .nav-item {
     width: 45px;
     float: left;
