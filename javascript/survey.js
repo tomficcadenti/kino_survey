@@ -248,7 +248,7 @@ function openGoalPage() {
   activateNavTab(document.getElementById('gender-tab'));
   activateNavTab(document.getElementById('age-tab'));
   activateNavTab(document.getElementById('condition-tab'));
-  activateNavTab(document.getElementById('goals-tab'));
+  activateNavTab(document.getElementById('goal-tab'));
 
   document.getElementById(pageState.currentPage).style.display = 'none';
   document.getElementById('goal-page').style.display = 'block';
@@ -261,12 +261,11 @@ function openGoalPage() {
 * that needs to be activated
 */
 var activateNavTab = function(navBarTab) {
+  navBarTab.classList.add('active');
+  navBarTab.style.cursor = 'pointer';
   if (navBarTab.classList.contains('off-color')) {
     navBarTab.classList.remove('off-color');
   }
-
-  navBarTab.classList.add('active');
-  navBarTab.style.cursor = 'pointer';
 }
 
 /*
@@ -274,16 +273,17 @@ var activateNavTab = function(navBarTab) {
 * that needs to be deactivated
 */
 var deActivateNavTab = function(navBarTab) {
+  navBarTab.classList.remove('active');
+  navBarTab.style.cursor = 'default';
+
   if (navBarTab === document.getElementById('age-tab') || navBarTab === document.getElementById('goal-tab')) {
     navBarTab.classList.add('off-color');
   }
-  navBarTab.classList.remove('active');
-  navBarTab.style.cursor = 'default';
 }
 
 function deActivateAllTabs() {
   deActivateNavTab(document.getElementById('gender-tab'));
   deActivateNavTab(document.getElementById('age-tab'));
   deActivateNavTab(document.getElementById('condition-tab'));
-  deActivateNavTab(document.getElementById('goals-tab'));
+  deActivateNavTab(document.getElementById('goal-tab'));
 }
