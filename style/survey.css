@@ -85,7 +85,14 @@ body {
 
   .nav-item p {
     margin: 0px;
-    padding-top: 5px;
+    display: block;
+    padding: 0px;
+    float: none;
+    text-align: center;
+  }
+
+  .nav-item i {
+
   }
 
   .page-header {
@@ -123,7 +130,7 @@ body {
     color: white;
     background-color: transparent;
     text-align: center;
-    padding: 14px 16px 8px 16px;
+    padding: 10px 16px 8px 16px;
     text-decoration: none;
     font-size: 10px;
   }
