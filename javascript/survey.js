@@ -22,11 +22,11 @@ function maleClick() {
   condition2.innerHTML = "<p>I'm 'skinny fat' - I look skinny and definitely need more muscle but I still have fat covering my abs.</p>";
 
   let condition3 = document.getElementById('condition-3');
-  condition3.setAttribute('onclick', 'maleConditions3and4Click()');
+  condition3.setAttribute('onclick', 'maleConditions3Click()');
   condition3.innerHTML = "<p>I have a good level of muscle size, but I need to drop fat to reveal muslce definition amd six pack abs.</p>";
 
   let condition4 = document.getElementById('condition-4');
-  condition4.setAttribute('onclick', 'maleConditions3and4Click()');
+  condition4.setAttribute('onclick', 'maleConditions4Click()');
   condition4.innerHTML = "<p>I have no clue how much muscle I have with all this fat covering it, I need to lose a bunch of fat!</p>";
   condition4.style.display = 'default';
 
