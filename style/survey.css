@@ -89,6 +89,7 @@ body {
     padding: 0px;
     float: none;
     text-align: center;
+    width: 60px;
   }
 
   .nav-item i {
@@ -125,12 +126,12 @@ body {
   }
 
   .nav-item {
-    width: 45px;
+    width: 60px;
     float: left;
     color: white;
     background-color: transparent;
     text-align: center;
-    padding: 10px 16px 8px 16px;
+    padding: 7px 10px 6px 10px;
     text-decoration: none;
     font-size: 10px;
   }
