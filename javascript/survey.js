@@ -41,15 +41,15 @@ function femaleClick() {
   pageState.gender = FEMALE;
 
   let condition1 = document.getElementById('condition-1');
-  condition1.setAttribute('onclick', 'femaleConditionClick()');
+  condition1.setAttribute('onclick', 'femaleCondition1Click()');
   condition1.innerHTML = '<p>I have a <b>slim body type<b> and want to gain lean muscle in the right areas to look my best.</p>';
 
   let condition2 = document.getElementById('condition-2');
-  condition2.setAttribute('onclick', 'femaleConditionClick()');
+  condition2.setAttribute('onclick', 'femaleCondition2Click()');
   condition2.innerHTML = "<p>I have <b>stubborn body fat</b></p><p>I want to slim down and increase my muscle tone.</p>";
 
   let condition3 = document.getElementById('condition-3');
-  condition3.setAttribute('onclick', 'femaleConditionClick()');
+  condition3.setAttribute('onclick', 'femaleCondition3Click()');
   condition3.innerHTML = "<p>I have <b>20 or more pounds of fat</b> to lose - I want to drop all this fat and look my best.</p>";
 
   document.getElementById('condition-4').style.display = 'none';
@@ -109,8 +109,16 @@ function ageButtonClick() {
   openConditionPage();
 }
 
-function femaleConditionClick() {
+function femaleCondition1Click() {
   window.location = 'https://pages.kinobody.com/survey/female/situation/diagnosis-a/women-result-4aa/';
+}
+
+function femaleCondition2Click() {
+  window.location = 'https://pages.kinobody.com/survey/female/situation/diagnosis-a/women-result-4ba/';
+}
+
+function femaleCondition3Click() {
+  window.location = 'https://pages.kinobody.com/survey/female/situation/diagnosis-a/women-result-4ca/';
 }
 
 function maleResult4AA() {
