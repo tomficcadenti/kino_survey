@@ -62,6 +62,15 @@ body {
     box-sizing: border-box;
   }
 
+  .page-header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: center;
+    max-width: 60%
+  }
+
   .fa.fa-venus-mars.fa-5x {
     font-size: 30px;
   }
