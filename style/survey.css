@@ -76,8 +76,8 @@ body {
 
   .nav-bar {
     list-style-type: none;
+    display: table;
     margin: auto;
-    width: 610px;
     padding: 0;
     overflow: hidden;
     background-color: transparent;
