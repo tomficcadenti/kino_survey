@@ -122,27 +122,27 @@ function maleResult4AB() {
 }
 
 function maleResult4BA() {
-  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4ba/';
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-b/survey-result-page-4ba/';
 }
 
 function maleResult4BB() {
-  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4bb/';
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-b/survey-result-page-4bb/';
 }
 
 function maleResult4CA() {
-  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4ca/';
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-c/survey-result-page-4ca/';
 }
 
 function maleResult4CB() {
-  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4cb/';
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-c/survey-result-page-4cb/';
 }
 
 function maleResult4DA() {
-  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4da/';
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-d/survey-result-page-4da/';
 }
 
 function maleResult4DB() {
-  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-a/survey-result-page-4db/';
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-d/survey-result-page-4db/';
 }
 
 function genderizeButtons() {
