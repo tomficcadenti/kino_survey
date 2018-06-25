@@ -74,6 +74,20 @@ body {
     box-sizing: border-box;
   }
 
+  .nav-bar {
+    list-style-type: none;
+    margin: auto;
+    width: 610px;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+
+  .nav-item p {
+    margin: 0px;
+    padding-top: 5px;
+  }
+
   .page-header {
     margin-left: auto;
     margin-right: auto;
