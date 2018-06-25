@@ -46,7 +46,7 @@ function femaleClick() {
 
   let condition2 = document.getElementById('condition-2');
   condition2.setAttribute('onclick', 'some_function');
-  condition2.innerHTML = "<p>I have <b>stubborn body fat</b> - I want to slim down and increase my muscle tone.</p>";
+  condition2.innerHTML = "<p>I have <b>stubborn body fat</b></p><p>I want to slim down and increase my muscle tone.</p>";
 
   let condition3 = document.getElementById('condition-3');
   condition3.setAttribute('onclick', 'some_function');
