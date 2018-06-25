@@ -25,7 +25,7 @@
 
     <div class="nav-background">
       <ul class="nav-bar">
-        <li id="gender-tab" class="nav-item active" onClick="genderNavBarClick()">
+        <li id="gender-tab" class="nav-item active">
           <i class="fa fa-venus-mars fa-5x" aria-hidden="true"></i>
           <p>GENDER</p>
         </li>
@@ -33,11 +33,11 @@
           <i class="fa fa-calendar-alt fa-5x" aria-hidden="true"></i>
           <p>AGE</p>
         </li>
-        <li class="nav-item">
+        <li id="condition-tab" class="nav-item">
           <i class="fa fa-heartbeat fa-5x" aria-hidden="true"></i>
           <p>CONDITION</p>
         </li>
-        <li class="nav-item off-color">
+        <li id="goals-tab" class="nav-item off-color">
           <i class="fa fa-flag-checkered fa-5x" aria-hidden="true"></i>
           <p>GOAL</p>
         </li>
@@ -51,32 +51,65 @@
     <!--<<<<<<<<<<<<<<<<<<<<<<<<  GENDER SELECTION  >>>>>>>>>>>>>>>>>>>>>>>>>>>-->
 
     <div id="gender-page">
-        <p style="font-size: 30px; text-align: center">
+        <p class="page-header">
         TO START, PLEASE SELECT IF YOU'RE A <b>MAN</b> OR A <b>WOMAN</b>:
         </p>
 
-        <ul class="gender-form">
+        <ul class="button-form">
           <li class="gender-buttons male-color" onClick="maleClick()"><p>I'M A MAN<i class="fas fa-angle-right fa-1x" style="padding-left: 10px"></i></p></li>
-          <li class="gender-buttons female-color" onClick="maleClick()"><p>I'M A WOMAN<i class="fas fa-angle-right fa-1x" style="padding-left: 10px"></i></p></li>
+          <li class="gender-buttons female-color" onClick="femaleClick()"><p>I'M A WOMAN<i class="fas fa-angle-right fa-1x" style="padding-left: 10px"></i></p></li>
         </ul>
     </div>
 
     <!--<<<<<<<<<<<<<<<<<<<<<<<<  AGE SELECTION  >>>>>>>>>>>>>>>>>>>>>>>>>>>-->
 
     <div id="age-page" style="display: none">
-      <center>
-        <p style="margin-top: 50px; font-size: 36px;">
-        PLEASE SELECT YOUR AGE RANGE:
-        </p>
-        <ul class="age-form">
-          <li class="age-buttons"><p><b>TEENS</b></p></li>
-          <li class="age-buttons"><p><b>20's</b></p></li>
-          <li class="age-buttons"><p><b>30's</b></p></li>
-          <li class="age-buttons"><p><b>40's</b></p></li>
-          <li class="age-buttons"><p><b>50's</b></p></li>
-          <li class="age-buttons"><p><b>60+</b></p></li>
-        </ul>
-      </center>
+      <p class="page-header">
+      PLEASE SELECT YOUR AGE RANGE:
+      </p>
+
+      <ul class="button-form">
+        <li class="age-buttons" onclick="ageButtonClick()"><p><b>TEENS</b></p></li>
+        <li class="age-buttons" onclick="ageButtonClick()"><p><b>20's</b></p></li>
+      </ul>
+      <ul class="button-form">
+        <li class="age-buttons" onclick="ageButtonClick()"><p><b>30's</b></p></li>
+        <li class="age-buttons" onclick="ageButtonClick()"><p><b>40's</b></p></li>
+      </ul>
+      <ul class="button-form">
+        <li class="age-buttons" onclick="ageButtonClick()"><p><b>50's</b></p></li>
+        <li class="age-buttons" onclick="ageButtonClick()"><p><b>60+</b></p></li>
+      </ul>
+    </div>
+
+    <!--<<<<<<<<<<<<<<<<<<<<<<<<  CONDITION SELECTION  >>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+
+    <div id="condition-page" style="display: none">
+      <p class="page-header">
+      PLEASE SELECT THE BEST DESCRIPTION OF YOUR CURRENT CONDITION:
+      </p>
+
+      <ul class="button-form">
+        <li id="condition-1" class="condition-buttons">ERROR</li>
+        <li id="condition-2" class="condition-buttons">ERROR</li>
+      </ul>
+      <ul class="button-form">
+        <li id="condition-3" class="condition-buttons">ERROR</li>
+        <li id="condition-4" class="condition-buttons">ERROR</li>
+      </ul>
+    </div>
+
+    <!--<<<<<<<<<<<<<<<<<<<<<<<<  GOAL SELECTION  >>>>>>>>>>>>>>>>>>>>>>>>>>>-->
+
+    <div id="goal-page" style="display: none">
+      <p class="page-header">
+      PLEASE SELECT THE BEST DESCRIPTION OF YOUR GOAL PHYSIQUE:
+      </p>
+
+      <ul class="button-form">
+        <li id="goal-1" class="goal-buttons">ERROR</li>
+        <li id="goal-2" class="goal-buttons">ERROR</li>
+      </ul>
     </div>
   </body>
 </html>

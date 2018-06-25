@@ -44,19 +44,32 @@ body {
   padding-top: 5px;
 }
 
+.page-header {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+  max-width: 60%
+}
+
 /*.fa.fa-venus-mars.fa-5x {
   font-size: 10px;
 }*/
 /*------------------GENDER PAGE STYLING-----------------*/
 
-.gender-form {
+.button-form {
   display: table;
   list-style-type: none;
+  list-style-position: inside;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 10px 10px 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
   overflow: hidden;
   background-color: transparent;
+  text-align: center;
 }
 
 .gender-buttons {
@@ -101,17 +114,51 @@ body {
 
 .age-buttons {
   width: 240px;
-  float: left;
+  float: none;
+  display: inline-block;
   text-align: center;
   font-size: 26px;
   border: 2px solid transparent;
   border-radius: 8px;
   color: #ffffff;
-  background-color: #ff7600;
   margin: 20px;
   cursor: pointer;
 }
 
 .age-buttons:hover {
   background-color: #ffad66;
+}
+
+/*------------------CONDITION PAGE STYLING-----------------*/
+
+.condition-buttons {
+  width: 240px;
+  float: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  color: #ffffff;
+  margin: 20px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*------------------GOAL PAGE STYLING-----------------*/
+
+.goal-buttons {
+  width: 240px;
+  float: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  color: #ffffff;
+  margin: 20px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
 }
