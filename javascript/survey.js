@@ -93,7 +93,7 @@ function maleConditions3Click() {
   openGoalPage();
 }
 
-unction maleConditions4Click() {
+function maleConditions4Click() {
   let goal1 = document.getElementById('goal-1');
   goal1.setAttribute('onClick', 'maleResult4DA()');
   goal1.innerHTML = "<p>My main goal is to <b>DROP FAT</b> slowly.</p><p>About 1 pound per week while focusing on increasing muscle density and strength for a chiseled physique.</p>"
