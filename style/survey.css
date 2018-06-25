@@ -54,8 +54,12 @@ body {
 }
 
 @media only screen and (max-device-width: 480px) {
-  body {
+  body, html {
+    margin: 0;
+    padding: 0;
     width: 100%;
+    height: 100%;
+    box-sizing: border-box;
   }
 
   .fa.fa-venus-mars.fa-5x {
