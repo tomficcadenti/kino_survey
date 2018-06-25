@@ -8,7 +8,6 @@ body {
 /*------------------NAV BAR STYLING-----------------*/
 .nav-background {
   background-color: #313539;
-  height: 46px;
 }
 
 .nav-bar {
@@ -22,7 +21,7 @@ body {
 
 .nav-item {
   /*width: 90px;*/
-  width: 200px;
+  width: 210px;
   float: none;
   display: inline-block;
   color: white;
@@ -36,13 +35,15 @@ body {
 .nav-item i {
   padding-top: 3px;
   position: relative;
-  float: left;
+  float: none;
+  display: inline-block;
 }
 
 .nav-item p {
   margin: 0px;
   padding-left: 10px;
-  float: left;
+  float: none;
+  display: inline-block;
 }
 
 .active {
