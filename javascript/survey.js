@@ -198,13 +198,13 @@ function ageTabClick() {
   }
 }
 
-function ageTabClick() {
+function conditionTabClick() {
   if (document.getElementById('condition-tab').classList.contains('active')) {
     openConditionPage();
   }
 }
 
-function ageTabClick() {
+function goalTabClick() {
   if (document.getElementById('goal-tab').classList.contains('active')) {
     openGoalPage();
   }
