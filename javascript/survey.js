@@ -188,6 +188,28 @@ function genderizeButtons() {
   }
 }
 
+function genderTabClick() {
+  openGenderPage();
+}
+
+function ageTabClick() {
+  if (document.getElementById('age-tab').classList.contains('active')) {
+    openAgePage();
+  }
+}
+
+function ageTabClick() {
+  if (document.getElementById('condition-tab').classList.contains('active')) {
+    openConditionPage();
+  }
+}
+
+function ageTabClick() {
+  if (document.getElementById('goal-tab').classList.contains('active')) {
+    openGoalPage();
+  }
+}
+
 function openGenderPage() {
   deActivateAllTabs();
   activateNavTab(document.getElementById('gender-tab'));
@@ -244,6 +266,7 @@ var activateNavTab = function(navBarTab) {
   }
 
   navBarTab.classList.add('active');
+  navBArTab.style.cursor = 'pointer';
 }
 
 /*
