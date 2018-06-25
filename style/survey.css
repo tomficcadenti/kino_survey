@@ -8,26 +8,41 @@ body {
 /*------------------NAV BAR STYLING-----------------*/
 .nav-background {
   background-color: #313539;
+  height: 46px;
 }
 
 .nav-bar {
   list-style-type: none;
+  display: table;
   margin: auto;
-  width: 610px;
   padding: 0;
   overflow: hidden;
   background-color: transparent;
 }
 
 .nav-item {
-  width: 90px;
-  float: left;
+  /*width: 90px;*/
+  width: 200px;
+  float: none;
+  display: inline-block;
   color: white;
   background-color: transparent;
   text-align: center;
-  padding: 14px 16px 8px 16px;
+  padding: 8px 10px 8px 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
+}
+
+.nav-item i {
+  padding-top: 3px;
+  position: relative;
+  float: left;
+}
+
+.nav-item p {
+  margin: 0px;
+  padding-left: 10px;
+  float: left;
 }
 
 .active {
@@ -39,11 +54,6 @@ body {
   background-color: rgb(27, 31, 35);
 }
 
-.nav-item p {
-  margin: 0px;
-  padding-top: 5px;
-}
-
 .page-header {
   margin-left: auto;
   margin-right: auto;
@@ -53,6 +63,7 @@ body {
   max-width: 60%
 }
 
+/*------------------NAV BAR STYLING FOR MOBILE-----------------*/
 @media only screen and (max-device-width: 480px) {
   body, html {
     margin: 0;
@@ -101,7 +112,7 @@ body {
     text-decoration: none;
     font-size: 10px;
   }
-  
+
   .active {
     background-color: #ff7600;
     color: #313539;
