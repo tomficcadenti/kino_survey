@@ -53,6 +53,34 @@ body {
   max-width: 60%
 }
 
+@media only screen and (max-device-width: 480px) {
+  .fa.fa-venus-mars.fa-5x {
+    font-size: 10px;
+  }
+
+  .fa.fa-calendar-alt.fa-5x {
+    font-size: 10px;
+  }
+
+  .fa.fa-heartbeat.fa-5x {
+    font-size: 10px;
+  }
+
+  .fa.fa-flag-checkered.fa-5x {
+    font-size: 10px;
+  }
+
+  .nav-item {
+    width: 45px;
+    float: left;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    padding: 14px 16px 8px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
 /*.fa.fa-venus-mars.fa-5x {
   font-size: 10px;
 }*/
