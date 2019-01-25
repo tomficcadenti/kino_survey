@@ -15,7 +15,7 @@ function maleClick() {
 
   let condition1 = document.getElementById('condition-1');
   condition1.setAttribute('onclick', 'maleCondition1Click()');
-  condition1.innerHTML = '<p>I have low levels of body fat, I can see my abs, and I want to build more muscle to look fantastic!</p>';
+  condition1.innerHTML = '<p>I have no clue how much muscle I have with all this fat covering it, I need to lose a bunch of fat!</p>';
 
   let condition2 = document.getElementById('condition-2');
   condition2.setAttribute('onclick', 'maleCondition2Click()');
@@ -25,10 +25,10 @@ function maleClick() {
   condition3.setAttribute('onclick', 'maleConditions3Click()');
   condition3.innerHTML = "<p>I have a good level of muscle size, but I need to drop fat to reveal muslce definition amd six pack abs.</p>";
 
-  let condition4 = document.getElementById('condition-4');
-  condition4.setAttribute('onclick', 'maleConditions4Click()');
-  condition4.innerHTML = "<p>I have no clue how much muscle I have with all this fat covering it, I need to lose a bunch of fat!</p>";
-  condition4.style.display = 'default';
+  // let condition4 = document.getElementById('condition-4');
+  // condition4.setAttribute('onclick', 'maleConditions4Click()');
+  // //condition4.innerHTML = "<p>I have no clue how much muscle I have with all this fat covering it, I need to lose a bunch of fat!</p>";
+  // //condition4.style.display = 'default';
 
   genderizeButtons();
 }
@@ -52,45 +52,51 @@ function femaleClick() {
   condition3.setAttribute('onclick', 'femaleCondition3Click()');
   condition3.innerHTML = "<p>I have <b>20 or more pounds of fat</b> to lose - I want to drop all this fat and look my best.</p>";
 
-  document.getElementById('condition-4').style.display = 'none';
+  //document.getElementById('condition-4').style.display = 'none';
 
   genderizeButtons();
 }
 
 function maleCondition1Click() {
-  let goal1 = document.getElementById('goal-1');
-  goal1.setAttribute('onClick', 'maleResult4AA()');
-  goal1.innerHTML = "<p>Do you want to focus on developing dense muscle size and lots of strength for the <b>GREEK GOD</b> Physique?</p><p>Think: hard, compact muscles with a good level of size & balanced proportions like Brad Pitt in Troy or Stephen Amell in Arrow.</p>"
+  // let goal1 = document.getElementById('goal-1');
+  // goal1.setAttribute('onClick', 'maleResult4AA()');
+  // goal1.innerHTML = "<p>Do you want to focus on developing dense muscle size and lots of strength for the <b>GREEK GOD</b> Physique?</p><p>Think: hard, compact muscles with a good level of size & balanced proportions like Brad Pitt in Troy or Stephen Amell in Arrow.</p>"
+  //
+  // let goal2 = document.getElementById('goal-2');
+  // goal2.setAttribute('onClick', 'maleResult4AB()');
+  // goal2.innerHTML = "<p>Do you want to focus on maximizing lean muscle growth for the <b>SUPERHERO PHYSIQUE</b>?</p><p>Think: big, full, well-developed muscles with great proportions like Henry Cavil in Superman or Chris Hemsworth in Thor.</p>"
+  //
+  // openGoalPage();
 
-  let goal2 = document.getElementById('goal-2');
-  goal2.setAttribute('onClick', 'maleResult4AB()');
-  goal2.innerHTML = "<p>Do you want to focus on maximizing lean muscle growth for the <b>SUPERHERO PHYSIQUE</b>?</p><p>Think: big, full, well-developed muscles with great proportions like Henry Cavil in Superman or Chris Hemsworth in Thor.</p>"
-
-  openGoalPage();
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-d/survey-result-page-4da/';
 }
 
 function maleCondition2Click() {
-  let goal1 = document.getElementById('goal-1');
-  goal1.setAttribute('onClick', 'maleResult4BA()');
-  goal1.innerHTML = "<p>My main goal is <b>DEFINITION</b>.</p><p>I want to focus mainly on fat loss to reveal great definition while I slowly build dense muscle size.</p>"
+  // let goal1 = document.getElementById('goal-1');
+  // goal1.setAttribute('onClick', 'maleResult4BA()');
+  // goal1.innerHTML = "<p>My main goal is <b>DEFINITION</b>.</p><p>I want to focus mainly on fat loss to reveal great definition while I slowly build dense muscle size.</p>"
+  //
+  // let goal2 = document.getElementById('goal-2');
+  // goal2.setAttribute('onClick', 'maleResult4BB()');
+  // goal2.innerHTML = "<p>My main goal is <b>MUSCLE GROWTH</b>.</p><p>I want to build muscle size while slowly dropping the fat covering my abs.</p>"
+  //
+  // openGoalPage();
 
-  let goal2 = document.getElementById('goal-2');
-  goal2.setAttribute('onClick', 'maleResult4BB()');
-  goal2.innerHTML = "<p>My main goal is <b>MUSCLE GROWTH</b>.</p><p>I want to build muscle size while slowly dropping the fat covering my abs.</p>"
-
-  openGoalPage();
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-b/survey-result-page-4ba/';
 }
 
 function maleConditions3Click() {
-  let goal1 = document.getElementById('goal-1');
-  goal1.setAttribute('onClick', 'maleResult4CA()');
-  goal1.innerHTML = "<p>My main goal is to <b>DROP FAT</b> slowly.</p><p>About 1 pound per week while focusing on increasing muscle density and strength for a chiseled physique.</p>"
+  // let goal1 = document.getElementById('goal-1');
+  // goal1.setAttribute('onClick', 'maleResult4CA()');
+  // goal1.innerHTML = "<p>My main goal is to <b>DROP FAT</b> slowly.</p><p>About 1 pound per week while focusing on increasing muscle density and strength for a chiseled physique.</p>"
+  //
+  // let goal2 = document.getElementById('goal-2');
+  // goal2.setAttribute('onClick', 'maleResult4CB()');
+  // goal2.innerHTML = "<p>My main goal is to do an <b>AGGRESSIVE CUT</b> and lose fat faster.</p><p>I'm not worried about getting more strength and size. I just want to get lean fast.</p>"
+  //
+  // openGoalPage();
 
-  let goal2 = document.getElementById('goal-2');
-  goal2.setAttribute('onClick', 'maleResult4CB()');
-  goal2.innerHTML = "<p>My main goal is to do an <b>AGGRESSIVE CUT</b> and lose fat faster.</p><p>I'm not worried about getting more strength and size. I just want to get lean fast.</p>"
-
-  openGoalPage();
+  window.location = 'https://pages.kinobody.com/survey/male/situation/diagnosis-c/survey-result-page-4ca/';
 }
 
 function maleConditions4Click() {
@@ -285,5 +291,5 @@ function deActivateAllTabs() {
   deActivateNavTab(document.getElementById('gender-tab'));
   deActivateNavTab(document.getElementById('age-tab'));
   deActivateNavTab(document.getElementById('condition-tab'));
-  deActivateNavTab(document.getElementById('goal-tab'));
+  //deActivateNavTab(document.getElementById('goal-tab'));
 }
