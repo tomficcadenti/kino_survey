@@ -88,7 +88,7 @@ body {
     display: block;
     padding: 0px;
     float: none;
-    text-align: center;
+    text-align: center; !important
     width: 70px;
   }
 
