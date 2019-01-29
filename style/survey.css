@@ -126,7 +126,7 @@ body {
   }
 
   .nav-item {
-    width: 90px;
+    width: calc(100vw / 4);
     float: left;
     color: white;
     background-color: transparent;
