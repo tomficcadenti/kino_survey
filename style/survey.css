@@ -70,14 +70,14 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     box-sizing: border-box;
   }
 
   .nav-bar {
     list-style-type: none;
     margin: auto;
-    width: 610px;
+    width: 100vw;
     padding: 0;
     overflow: hidden;
     background-color: transparent;
@@ -126,7 +126,7 @@ body {
   }
 
   .nav-item {
-    width: calc(100vw / 4);
+    width: calc(100vw / 5.38);
     float: left;
     color: white;
     background-color: transparent;
